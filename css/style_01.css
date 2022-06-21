@@ -33,6 +33,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #fff;
+    transition: all 1s;
 }
 
 h1 {
