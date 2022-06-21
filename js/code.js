@@ -14,6 +14,19 @@ const img_url = [
 //제이쿼리 선언
 $(function(){
   
+  // 년 월 일 표시하기
+  let d = new Date();
+  let year = d.getFullYear();
+  let month = d.getMonth() + 1;
+  let date = d.getDate();
+
+  console.log(year, month, date)
+  
+  $('.year').html(year);
+  $('.month').html(month);
+  $('.day').html(date);
+  
+
   //이미지 변경 함수 선언
   function changeBg(){
     
